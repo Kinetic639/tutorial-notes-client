@@ -231,7 +231,7 @@ export const Layout = ({children}) => {
                 }}
             >
                 {' '}
-                >
+                
                 <DrawerHeader/>
                 <motion.div variants={animations} initial="initial" animate="animate" exit="exit"
                             className={classes.page}>{children}</motion.div>
